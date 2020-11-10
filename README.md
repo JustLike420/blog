@@ -24,3 +24,7 @@ ____
 python manage.py createapp siteblog
 ```
 ____
+### Static files
+```
+python manage.py collectstatic
+```
