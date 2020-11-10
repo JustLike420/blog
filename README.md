@@ -41,3 +41,9 @@ _____
 ```
 python manage.py createsuperuser
 ```
+_____
+### Debug in admin
+https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+_____
+### ckEditor
+https://pypi.org/project/django-ckeditor-5/
