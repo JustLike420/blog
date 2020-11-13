@@ -67,4 +67,4 @@ class Post(models.Model):
     class Meta:
         verbose_name = 'Статью'
         verbose_name_plural = 'Статьи'
-        ordering = ['-created_at']  # сортирока по дате в обратном порядке свежие выше
+        ordering = ['created_at']  # сортирока по дате в обратном порядке свежие выше

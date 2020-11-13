@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.utils.safestring import mark_safe
 
 from .models import Post, Tag, Category
+
+
 # Register your models here.
 
 class PostAdmin(admin.ModelAdmin):
@@ -22,9 +24,11 @@ class PostAdmin(admin.ModelAdmin):
 
     get_photo.short_description = 'Фото'
 
+
 class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("title",)}
     list_display = ['title']
+
 
 class TagAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("title",)}
