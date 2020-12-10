@@ -6,7 +6,7 @@
 python -m venv venv
 ```
 ```
-.\venv\Scripts\activat
+.\venv\Scripts\activate
 ```
 ____
 ### Installing Django
@@ -21,7 +21,7 @@ django-admin startproject siteblog
 ____
 ### Creating new app - SiteBlog
 ```
-python manage.py createapp siteblog
+python manage.py startapp siteblog
 ```
 ____
 ### Static files
